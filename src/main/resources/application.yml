@@ -6,7 +6,7 @@ spring:
     password: root
   jpa:
     hibernate:
-      ddl-auto: update
+      ddl-auto: update # change to none if DB is already built
     properties:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect

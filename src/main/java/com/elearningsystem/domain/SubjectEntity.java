@@ -1,4 +1,4 @@
-package com.elearningsystem.entity;
+package com.elearningsystem.domain;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

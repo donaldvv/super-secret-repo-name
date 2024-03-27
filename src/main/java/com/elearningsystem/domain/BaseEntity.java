@@ -1,8 +1,6 @@
-package com.elearningsystem.entity;
+package com.elearningsystem.domain;
 import jakarta.persistence.MappedSuperclass;
-import lombok.AllArgsConstructor;
-import lombok.NoArgsConstructor;
-import lombok.experimental.SuperBuilder;
+
 import java.io.Serializable;
 
 @MappedSuperclass

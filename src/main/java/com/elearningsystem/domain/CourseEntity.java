@@ -1,4 +1,4 @@
-package com.elearningsystem.entity;
+package com.elearningsystem.domain;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -19,15 +19,20 @@ public class CourseEntity extends BaseEntity{
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "courseID")
     private Integer courseID;
+
     @Column(name = "name",nullable = false)
     private String name;
+
     @Column(name = "description",nullable = false)
     private String Description;
+
     @Column(name = "Content",nullable = false)
     private String content;
+
     @ManyToOne
     @JoinColumn(name = "teacherId")
     private TeacherEntity teacher;
+
     @ManyToOne
     @JoinColumn(name = "subjectId")
     private SubjectEntity subject;

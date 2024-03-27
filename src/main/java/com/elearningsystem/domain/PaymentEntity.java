@@ -1,6 +1,6 @@
-package com.elearningsystem.entity;
+package com.elearningsystem.domain;
 
-import com.elearningsystem.entity.embbedable.PaymentId;
+import com.elearningsystem.domain.embbedable.PaymentId;
 import jakarta.persistence.*;
 import lombok.*;
 
