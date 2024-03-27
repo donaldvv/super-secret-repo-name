@@ -1,4 +1,4 @@
-package Project.ELearningSystem.entity;
+package com.elearningsystem.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

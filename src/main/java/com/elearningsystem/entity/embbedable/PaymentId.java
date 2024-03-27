@@ -1,4 +1,4 @@
-package Project.ELearningSystem.entity.embbedable;
+package com.elearningsystem.entity.embbedable;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Embeddable;

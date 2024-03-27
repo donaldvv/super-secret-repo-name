@@ -1,4 +1,4 @@
-package Project.ELearningSystem.entity;
+package com.elearningsystem.entity;
 import jakarta.persistence.MappedSuperclass;
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;

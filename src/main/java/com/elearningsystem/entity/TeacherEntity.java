@@ -1,4 +1,4 @@
-package Project.ELearningSystem.entity;
+package com.elearningsystem.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -7,17 +7,18 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.experimental.SuperBuilder;
 
+import java.util.Date;
 @Entity
 @NoArgsConstructor
 @AllArgsConstructor
 @Getter
 @Setter
 @SuperBuilder
-public class AdminEntity extends BaseEntity {
+public class TeacherEntity extends BaseEntity{
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int adminId;
+    private int teacherId;
     @Column(name = "fname",nullable = false)
     private String fname;
     @Column(name = "lname")
@@ -30,6 +31,8 @@ public class AdminEntity extends BaseEntity {
     private String password;
     @Column(name = "gender")
     private String Gender;
-
-
+    @Column(name = "registrationdate")
+    private Date registrationDate;
+    @Column(name = "lastlogin")
+    private Date lastLogin;
 }
